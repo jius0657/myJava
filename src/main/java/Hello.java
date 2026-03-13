@@ -4,6 +4,7 @@ public class Hello {
         System.out.println("I like coding");
         System.out.println("Fuck coding");
         System.out.println("I love Javier ignacio de la barrera nunez!!");
+        System.out.println("fuck")
     /*
     public static void main(string[] args) 함수는 자바에서 가장 먼저실행되는 함수
 
