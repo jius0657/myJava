@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class code03_12 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int num = 99;
 
         System.out.println( (num > 100) && (num < 200) );
