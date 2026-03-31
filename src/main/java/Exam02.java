@@ -12,7 +12,7 @@ public class Exam02 {
             System.out.println("3의 배수입니다.");
         else if(n %5 == 0)
             System.out.println("5의 배수입니다.");
-        sc.close();
 
+        sc.close();
     }
 }
