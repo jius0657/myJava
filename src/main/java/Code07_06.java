@@ -1,7 +1,7 @@
 class Rabbit {
-    String shape;
-    int xPos;
-    int yPos;
+    private String shape;
+    private int xPos;
+    private int yPos;
 
     Rabbit() {
         shape = "토끼";
@@ -29,15 +29,17 @@ public class Code07_06 {
 
         Rabbit rabbit = new Rabbit();
 
-        System.out.printf("토끼 객체의 기본 모양은 [%s]입니다.", rabbit.shape);
+        rabbit.setposition(100, 200);
 
-        Rabbit rabbit1 = new Rabbit("원");
-        Rabbit rabbit2 = new Rabbit("삼각형");
-        Rabbit rabbit3 = new Rabbit("토끼");
-
-        System.out.printf("토끼1 객체의 모임은 [%s]입니다.\n", rabbit1.shape);
-        System.out.printf("토끼2 객체의 모임은 [%s]입니다.\n", rabbit2.shape);
-        System.out.printf("토끼3 객체의 모임은 [%s]입니다.\n", rabbit3.shape);
+//        System.out.printf("토끼 객체의 기본 모양은 [%s]입니다.", rabbit.shape);
+//
+//        Rabbit rabbit1 = new Rabbit("원");
+//        Rabbit rabbit2 = new Rabbit("삼각형");
+//        Rabbit rabbit3 = new Rabbit("토끼");
+//
+//        System.out.printf("토끼1 객체의 모임은 [%s]입니다.\n", rabbit1.shape);
+//        System.out.printf("토끼2 객체의 모임은 [%s]입니다.\n", rabbit2.shape);
+//        System.out.printf("토끼3 객체의 모임은 [%s]입니다.\n", rabbit3.shape);
 
     }
 }
