@@ -6,6 +6,7 @@ public class Code09_12 {
         for (int i= 0; i < 3; i++) {
             for (int k = 0; k < 4; k++) {
                 ary[i][k] = value;
+                value++;
             }
         }
         System.out.printf("ary[0][0]부터 ary[2][3]까지 출력 \n");
