@@ -4,5 +4,6 @@ public class Code03_07 {
         num = 100;
         num = 100 * 200;
         num = Integer.parseInt("100") + Integer.parseInt("200");
+        // Integer.pareseInt = 문자열을 정수로 변환
     }
 }
